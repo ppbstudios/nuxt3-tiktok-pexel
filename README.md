@@ -1,6 +1,6 @@
 # Nuxt plugin for tiktok pixel (Nuxt 3)
 
-> A Nuxt 3 module thats injects Meta Pixel (tiktok Pixel) 
+> A Nuxt 3 module thats injects Tiktok Pixel (tiktok Pixel) 
 
 ## Table of Contents
 
@@ -75,19 +75,3 @@ this.$tt.enable()
 ```
 
 The pixel can be disabled again later on by using the `.disable()` method.
-
-## Multiple pixel codes according to route
-
-It's possible to use multiple pixel codes according to the user's route. This can be made through the `pixels` property.
-The `pixels` property expects an array of options.
-
-```js
-{
-  modules: [
-    'nuxt3-tiktok-pixel',
-  ],
-  tiktok: {
-    pixelId: 'PIXEL_KEY',
-  },
-}
-```

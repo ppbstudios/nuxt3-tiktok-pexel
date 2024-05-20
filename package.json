@@ -1,8 +1,11 @@
 {
   "name": "nuxt3-tiktok-pixel",
   "version": "1.0.0",
-  "description": "meta (facebook) pixel plugin for nuxt 3",
-  "repository": "https://github.com/quando1910/nuxt3-meta-pixel",
+  "description": "TikTok pixel module modeled after the Facebook pixel module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppbstudios/nuxt3-tiktok-pexel.git"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -18,7 +21,6 @@
     "dist"
   ],
   "scripts": {
-    "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
@@ -38,5 +40,11 @@
     "changelogen": "^0.5.3",
     "eslint": "^8.38.0",
     "nuxt": "^3.4.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ppbstudios/nuxt3-tiktok-pexel.git"
+  },
+  "homepage": "https://github.com/ppbstudios/nuxt3-tiktok-pexel.git#readme",
+  "keywords": ["nuxt3", "tiktok","pixel"],
+  "author": "Youngho, Joonsu"
 }
