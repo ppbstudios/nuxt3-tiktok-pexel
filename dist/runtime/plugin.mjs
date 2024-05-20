@@ -132,11 +132,6 @@ export default defineNuxtPlugin((_nuxtApp) => {
           var a = document.getElementsByTagName("script")[0];
           a.parentNode.insertBefore(o, a);
         });
-      // log(!isDev && !pixelOptions.disabled);
-      // if (!isDev && !pixelOptions.disabled) {
-      //   ttq.load(pixelOptions.pixelId);
-      //   ttq.page();
-      // }
       if (pixelOptions.debug)
         document.cookie =
           "pixel_debug=true; expires=Thu, 18 Dec 2043 12:00:00 GMT; path=/; SameSite=None; Secure";
